@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.ControlPanel">
+  <grid id="27dc6" binding="ControlPanel" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="194" height="341"/>
+    </constraints>
+    <properties>
+      <background color="-12513478"/>
+    </properties>
+    <border type="bevel-lowered" title="A E S T H E T I C" title-justification="2" title-position="3">
+      <font/>
+      <title-color color="-51539"/>
+    </border>
+    <children>
+      <component id="f709e" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-51539"/>
+          <text value="Resume"/>
+        </properties>
+      </component>
+      <component id="72f89" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-51539"/>
+          <text value="Quit(q)"/>
+        </properties>
+      </component>
+      <component id="5eee9" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-51539"/>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="68c86" class="javax.swing.JButton" binding="saveButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-51539"/>
+          <text value="Save(s)"/>
+        </properties>
+      </component>
+      <component id="ce655" class="javax.swing.JButton" binding="loadButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-51539"/>
+          <text value="Load(l)"/>
+        </properties>
+      </component>
+      <component id="cbc1e" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-51539"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <grid id="79562" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="8" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10677418"/>
+          <foreground color="-12513478"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ddecd" class="javax.swing.JButton" binding="skipLevelButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12513478"/>
+              <foreground color="-51539"/>
+              <text value="Skip Level"/>
+            </properties>
+          </component>
+          <component id="add6a" class="javax.swing.JButton" binding="goBackButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12513478"/>
+              <foreground color="-51539"/>
+              <text value="Go Back"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
